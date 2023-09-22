@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,800;1,900&family=Montserrat:ital,wght@0,400;0,600;0,700;1,600;1,900&family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,600;1,800;1,900&family=Ubuntu&display=swap') ;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+:root{
+    --bg--color:#020c13 !important;
+    --second-bg-color:#112e42 !important;
+    --text-color:#ededed !important;
+    --main--color:#19b2ee !important;
+    --btn--color:rgba(103, 100, 243, 0.866) !important;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+body{
+    background: var(--bg--color) !important;
+    color:var(--text-color) !important;
+}
+.header{
+    position:relative;
+    top: 0;
+  left: 0;
+  width: 100%;
+  padding:2rem 9%;
+  background: transparent;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+    font-size:2.5rem ;
+    color: var(--text-color);
+    font-weight: 550;
+    margin-left: 3.5rem;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500; 
+    margin-left:3.5rem;
+    transition: .5s;
+    
+}
+.navbar a:hover,
+.navbar a.education{
+    color: var(--main--color);
+    
+}
+#menu-icon{
+    font-size: 3rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    }
+.education-content{
+    display: flex;
+    align-items:center;
+    margin-top: 40px;
+    
+}
+
+.heading{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: left;
+}
+.heading span{
+    color: var(--main--color);  
+}
+.container .place-details{
+    font-size: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+
+}
+.container .study_explain p{
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 2.5rem;
+    border: .2rem solid var(--main--color);
+    border-radius: .6rem;
+}
+.Education_details{
+    margin-bottom: 40px;
+    
+    border: .2rem solid var(--main--color);
+    border-radius: .6rem;
+}
+/* Image in left corner of <hr> tag */
+
+
+hr.style-five
+{
+    border: 2px solid var(--main--color);
+    
+   
+    }
